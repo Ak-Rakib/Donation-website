@@ -1,0 +1,37 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.img1 {
+    display: flex;
+    background-image: url(donation13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: contrast(100%);
+}
+
+.center {
+    text-align: center;
+    color: aliceblue;
+    padding: 250px;
+}
+
+.center h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.center a {
+    text-decoration: none;
+    background-color: yellow;
+    padding: 20px 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+
+.span1 {
+    color: whitesmoke;
+    font-size: 60px;
+}
