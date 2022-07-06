@@ -2,8 +2,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.img1 {
+.displayflex {
     display: flex;
+}
+
+.img1 {
     background-image: url(donation13.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -26,7 +29,7 @@ body {
 
 .center a {
     text-decoration: none;
-    background-color: yellow;
+    background-image: linear-gradient(yellow, red);
     padding: 20px 20px;
     border-radius: 5px;
     color: black;
@@ -46,11 +49,11 @@ body {
 }
 
 
-.size2 {
+.size3 {
     background-color: rgb(240, 238, 238);
 }
 
-.part2div {
+.part3div {
     box-shadow: 10px 10px 10px white;
     margin: 10px;
     border: 4px solid white;
@@ -58,11 +61,8 @@ body {
     color: rgb(131, 131, 131);
 }
 
-.flex2 {
-    display: flex;
-}
 
-.newboreder {
+.newboreder3 {
     color: brown;
     border: 3px solid brown;
 }
@@ -76,4 +76,94 @@ body {
     border-bottom: 1px solid darkgrey;
     border-radius: 2px;
     padding-top: 5px;
+}
+
+.four {
+    color: black;
+    padding-top: 4px;
+}
+
+.four01 {
+    padding-top: 5px;
+    color: black;
+}
+
+.four02 {
+    margin: 10px;
+    border: 9px solid white;
+    padding: 15px;
+    background-color: #C4D7E0;
+}
+
+.four03 {
+    margin: 10px;
+    border: 9px solid white;
+    padding: 15px;
+    background-color: #FBC5C5;
+}
+
+.four04 {
+    margin: 10px;
+    border: 9px solid white;
+    padding: 15px;
+    background-color: #FFE7BF;
+}
+
+img {
+    float: left;
+    padding: 15px;
+}
+
+.five01 {
+    width: 50%;
+    color: black;
+    padding-right: 40px;
+}
+
+.five02 {
+    width: 93%;
+    padding-right: 100px;
+    padding-top: 100px;
+    box-shadow: 5px 3px 5px rgb(194, 194, 194);
+}
+
+.imgFive {
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.six01 {
+    color: black;
+    padding-top: 0%;
+}
+
+.six02 {
+    background-color: #FFE7BF;
+    padding: 70px;
+    border-radius: 10px;
+}
+
+.six02 button {
+    background-color: red;
+    color: wheat;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.six02 input {
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.lastpart {
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#footer {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
 }
