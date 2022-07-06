@@ -41,7 +41,7 @@ body {
 
 .second {
     color: black;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     padding-top: 20px;
 }
 
@@ -55,7 +55,7 @@ body {
     margin: 10px;
     border: 4px solid white;
     padding: 50px;
-    color: black;
+    color: rgb(131, 131, 131);
 }
 
 .flex2 {
@@ -65,4 +65,15 @@ body {
 .newboreder {
     color: brown;
     border: 3px solid brown;
+}
+
+.third {
+    padding-top: 0%;
+}
+
+.thirdborder {
+    color: darkgray;
+    border-bottom: 1px solid darkgrey;
+    border-radius: 2px;
+    padding-top: 5px;
 }
